@@ -1,0 +1,49 @@
+body {
+    padding-bottom: 0;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    height: 38px;
+    width: 38px;
+    background: url("../imgs/top.png") no-repeat;
+}
+
+.logo {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    background: url("../imgs/totalmobile-logo.jpg") no-repeat;
+    margin-top: -15px;
+    background-size: contain;
+}
+
+.affix {
+    width: 263px;
+    top: 0;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
+
+.nav-pills>li:first-child>a {
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-pills>li:last-child>a {
+    border-radius: 0 0 4px 4px;
+}
+
+.panel-primary>.panel-footer {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.panel-info>.panel-footer {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
